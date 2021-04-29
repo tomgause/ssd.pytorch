@@ -23,6 +23,9 @@ import numpy as np
 import pickle
 import cv2
 
+import warnings
+warnings.filterwarnings("ignore")
+
 if sys.version_info[0] == 2:
     import xml.etree.cElementTree as ET
 else:
